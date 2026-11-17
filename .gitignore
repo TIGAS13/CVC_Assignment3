@@ -1,0 +1,6 @@
+retinaface-pytorch/
+*.zip
+__pycache__/
+*.pth
+*.env
+*.csv
