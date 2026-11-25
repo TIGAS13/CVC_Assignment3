@@ -1,0 +1,57 @@
+{
+  "detector": "scrfd",
+  "det_size": 640,
+  "n_images": 3226,
+  "iou_threshold": 0.5,
+  "min_height": 10,
+  "ap": {
+    "all": 0.7839759957240686,
+    "size_tiny(<20px)": 0.4687044871927955,
+    "size_small(20-50)": 0.8554866281463022,
+    "size_medium(50-100)": 0.9253365634080151,
+    "size_large(>=100)": 0.9551345902673953,
+    "occlusion_none": 0.8661274907261809,
+    "occlusion_partial": 0.5250656871877833,
+    "occlusion_heavy": 0.36017138548290073,
+    "pose_typical": 0.7850363825251581,
+    "pose_atypical": 0.4976154536926949,
+    "blur_clear": 0.9231221774283671,
+    "blur_normal": 0.8903819843009639,
+    "blur_heavy": 0.5996609878285586,
+    "illumination_normal": 0.777325193979394,
+    "illumination_extreme": 0.7087303988743785,
+    "expression_typical": 0.7814801799209824,
+    "expression_exaggerated": 0.8322276928079324
+  },
+  "n_faces": {
+    "all": 32764,
+    "size_tiny(<20px)": 12838,
+    "size_small(20-50)": 12597,
+    "size_medium(50-100)": 4595,
+    "size_large(>=100)": 2734,
+    "occlusion_none": 21741,
+    "occlusion_partial": 5123,
+    "occlusion_heavy": 5900,
+    "pose_typical": 31263,
+    "pose_atypical": 1501,
+    "blur_clear": 5313,
+    "blur_normal": 10203,
+    "blur_heavy": 17248,
+    "illumination_normal": 30613,
+    "illumination_extreme": 2151,
+    "expression_typical": 32373,
+    "expression_exaggerated": 391
+  },
+  "operating_point": {
+    "threshold": 0.6,
+    "precision": 0.9824441793079939,
+    "recall": 0.5277743865217922
+  },
+  "timing": {
+    "mean_ms": 335.27924167773756,
+    "median_ms": 301.91917799947987,
+    "p95_ms": 458.8369089997286,
+    "fps_mean": 2.9825884686328905,
+    "n": 3221
+  }
+}

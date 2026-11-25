@@ -1,0 +1,13 @@
+# O PyTorch/torchvision instalam-se à parte, de acordo com a tua versão de CUDA:
+#   https://pytorch.org/get-started/locally/
+# (se o RetinaFace já corre no teu ambiente, já os tens)
+
+numpy
+opencv-python
+pandas
+scikit-learn
+matplotlib
+pillow
+tqdm
+insightface
+onnxruntime          # com GPU NVIDIA: onnxruntime-gpu (NUNCA os dois ao mesmo tempo)

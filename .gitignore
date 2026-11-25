@@ -1,0 +1,12 @@
+﻿.idea/
+__pycache__/
+Data/
+CVC_Lab3/
+Lab3_partes_4_1_4_2/
+Legacy/
+Nova pasta/
+retinaface-pytorch/
+*.tar
+*.zip
+*.pdf
+*.ipynb

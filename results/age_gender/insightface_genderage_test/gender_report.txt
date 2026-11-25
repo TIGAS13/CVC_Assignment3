@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+        male      0.914     0.899     0.906      1933
+      female      0.886     0.902     0.894      1682
+
+    accuracy                          0.900      3615
+   macro avg      0.900     0.901     0.900      3615
+weighted avg      0.901     0.900     0.900      3615
+
+Confusion matrix (rows=true, cols=pred):
+[[1737  196]
+ [ 164 1518]]
