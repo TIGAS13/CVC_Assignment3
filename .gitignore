@@ -1,4 +1,8 @@
 retinaface-pytorch/
+UTKFace/
+WIDER_train/
+WIDER_val/
+AffectNetCustom/
 *.zip
 __pycache__/
 *.pth
