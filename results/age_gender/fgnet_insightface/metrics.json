@@ -1,0 +1,8 @@
+{
+  "title": "FG-NET: InsightFace genderage",
+  "age": {
+    "n": 850,
+    "MAE": 17.192941176470587,
+    "RMSE": 21.11230474781723
+  }
+}

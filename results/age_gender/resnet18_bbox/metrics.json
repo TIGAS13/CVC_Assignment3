@@ -1,0 +1,55 @@
+{
+  "title": "resnet18_bbox (teste)",
+  "age": {
+    "n": 3615,
+    "MAE": 4.824164891552134,
+    "RMSE": 7.0534423750602455
+  },
+  "gender": {
+    "report": {
+      "male": {
+        "precision": 0.9400503778337531,
+        "recall": 0.9653388515261252,
+        "f1-score": 0.9525267993874426,
+        "support": 1933.0
+      },
+      "female": {
+        "precision": 0.9588957055214724,
+        "recall": 0.9292508917954816,
+        "f1-score": 0.9438405797101449,
+        "support": 1682.0
+      },
+      "accuracy": 0.9485477178423236,
+      "macro avg": {
+        "precision": 0.9494730416776127,
+        "recall": 0.9472948716608034,
+        "f1-score": 0.9481836895487937,
+        "support": 3615.0
+      },
+      "weighted avg": {
+        "precision": 0.9488187986278731,
+        "recall": 0.9485477178423236,
+        "f1-score": 0.9484852443398036,
+        "support": 3615.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1866,
+        67
+      ],
+      [
+        119,
+        1563
+      ]
+    ]
+  },
+  "calibration_on_test": {
+    "gender_threshold": 0.5885722041130066,
+    "coverage_kept": 0.9881051175656985,
+    "gender_acc_kept": 0.9552071668533034,
+    "gender_acc_all": 0.9485477178423236,
+    "age_interval_halfwidth": 8.04447250366211,
+    "age_interval_test_coverage": 0.8116182572614108
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "mobilenet_v3_small_aligned (teste)",
+  "age": {
+    "n": 3615,
+    "MAE": 5.685470587608725,
+    "RMSE": 8.120754700165138
+  },
+  "gender": {
+    "report": {
+      "male": {
+        "precision": 0.9206510681586979,
+        "recall": 0.9363683393688567,
+        "f1-score": 0.9284431905616825,
+        "support": 1933.0
+      },
+      "female": {
+        "precision": 0.9254093389933293,
+        "recall": 0.9072532699167658,
+        "f1-score": 0.9162413689582708,
+        "support": 1682.0
+      },
+      "accuracy": 0.9228215767634855,
+      "macro avg": {
+        "precision": 0.9230302035760136,
+        "recall": 0.9218108046428113,
+        "f1-score": 0.9223422797599766,
+        "support": 3615.0
+      },
+      "weighted avg": {
+        "precision": 0.9228650132607311,
+        "recall": 0.9228215767634855,
+        "f1-score": 0.9227658838018101,
+        "support": 3615.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1810,
+        123
+      ],
+      [
+        156,
+        1526
+      ]
+    ]
+  },
+  "calibration_on_test": {
+    "gender_threshold": 0.7145787477493286,
+    "coverage_kept": 0.9219917012448133,
+    "gender_acc_kept": 0.9510951095109511,
+    "gender_acc_all": 0.9228215767634855,
+    "age_interval_halfwidth": 9.243909835815431,
+    "age_interval_test_coverage": 0.7986168741355464
+  }
+}

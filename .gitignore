@@ -4,7 +4,15 @@ WIDER_train/
 WIDER_val/
 AffectNetCustom/
 *.zip
+.idea/
 __pycache__/
-*.pth
-*.env
-*.csv
+Data/
+CVC_Lab3/
+Lab3_partes_4_1_4_2/
+Legacy/
+Nova pasta/
+retinaface-pytorch/
+*.tar
+*.zip
+*.pdf
+*.ipynb
