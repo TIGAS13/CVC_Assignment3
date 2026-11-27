@@ -10,4 +10,8 @@ matplotlib
 pillow
 tqdm
 insightface
-onnxruntime          # com GPU NVIDIA: onnxruntime-gpu (NUNCA os dois ao mesmo tempo)
+onnxruntime-gpu          # com GPU NVIDIA: onnxruntime-gpu (NUNCA os dois ao mesmo tempo)
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0+cu126
+torchvision==0.29.0+cu126

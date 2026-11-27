@@ -68,6 +68,13 @@ class MultiTaskFaceAttributes(nn.Module):
             nn.Linear(128, 1),
         )
 
+        self.sentiment_head = nn.Sequential(
+            nn.Dropout(dropout),
+            nn.Linear(in_features, 128),
+            nn.ReLU(inplace=True),
+            nn.Linear(128, 8),
+        )
+
     def forward(self, x: torch.Tensor):
         features = self.backbone(x)
         age_pred = self.age_head(features).squeeze(-1)        # (B,) contínuo
